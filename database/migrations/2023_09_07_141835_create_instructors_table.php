@@ -16,7 +16,7 @@ class CreateInstructorsTable extends Migration
         Schema::create('instructors', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('e-mail');
+            $table->string('email');
             $table->string('img');
             $table->timestamps();
         });
